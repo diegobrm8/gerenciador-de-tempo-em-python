@@ -33,10 +33,3 @@ class GerenciadorDeTempo:
         for atividade, tempo in relatorio.items():
             print(f"Atividade: {atividade} - Tempo total: {tempo}")
 
-
-gerenciador = GerenciadorDeTempo()
-
-gerenciador.iniciar_atividade("Estudar Python")
-gerenciador.parar_atividade("Estudar Python")
-print("\nRelatório de Atividades:")
-gerenciador.imprimir_relatorio()
